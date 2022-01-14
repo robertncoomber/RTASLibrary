@@ -9,6 +9,13 @@ import Foundation
 
 public class RTASClass
 {
+    var tempurature: Double
+    
+    public init()
+    {
+        tempurature = 10.0
+    }
+    
     public func DoTheThing()
     {
         print("The Thing is happening")
